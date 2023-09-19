@@ -1,0 +1,61 @@
+@import url('reset.css');
+.container{
+    margin: 30px auto;
+    width: 1200px;
+}
+.container > div{
+    outline: 2px solid black;
+    overflow: hidden;
+    font-size: 30px;
+}
+.first{
+    display: flex;
+}
+.first_block{
+    background: orange;
+    width: 400px;
+    height: 400px;
+    outline: 2px solid black;
+}
+.second___block > div > div{
+    outline: 2px solid black;
+    background: lightcoral;
+}
+.second___block{
+    display: flex;
+}
+.block{
+    height: 200px;
+    width: 800px;
+}
+.block1{
+    height: 133.333px;
+    outline: 2px solid black;
+    overflow: hidden;
+}
+.third_block div{
+    outline: 2px solid black;
+    background: lightseagreen;
+}
+.third_block .third{
+    height: 400px;
+}
+.third_block{
+    display: flex;
+}
+.third_block1 .third1{
+    width: 800px;
+    height: 200px;
+}
+.third_block2 .third2{
+    width: 400px;
+    height: 200px;
+}
+.third_block2{
+    display: flex;
+}
+.third_block3 .third3{
+    width: 400px;
+    height: 100px;
+    overflow: hidden;
+}
